@@ -1,4 +1,4 @@
-import metaBnb from "../src/assets/metabnb.png";
+import metaBnb from "../assets/metabnb.png";
 
 function Header() {
   return (
