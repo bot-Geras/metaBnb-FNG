@@ -20,7 +20,7 @@ function Main() {
             comfort zone
           </p>
           <div className="search-btn">
-            <input type="text" />
+            <input className="search" placeholder="Search for Location" type="text" />
             <a href="" className="btn">
               Search
             </a>
