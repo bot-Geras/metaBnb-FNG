@@ -19,7 +19,7 @@ function Header() {
             <a href="">Community</a>
           </li>
           <li>
-            <a href="" className="button">
+            <a href="" className="nav-btn button">
               Connect Wallet
             </a>
           </li>

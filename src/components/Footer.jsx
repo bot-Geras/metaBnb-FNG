@@ -13,8 +13,9 @@ function Footer() {
             <img src={instagram} />
             <img src={twitter} />
           </div>
+          <p>2022 Metabnb</p>
         </div>
-        <div className="footer-list">
+        
           <ul>
             <p className="foo">Community</p>
             <li>NFT</li>
@@ -36,9 +37,11 @@ function Footer() {
             <li>Careers</li>
             <li>Contact Us</li>
           </ul>
-        </div>
-        <p>2022 Metabnb</p>
+        
+        
       </div>
+      
+      
     </footer>
   );
 }
