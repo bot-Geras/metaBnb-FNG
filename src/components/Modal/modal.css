@@ -24,6 +24,10 @@ border-radius: 16px;
 .modal-right-btn {
     width: 24px;
     height: 24px;
+    cursor: pointer;
+}
+.modal-right-btn:hover {
+    background-color: #CFD8DC;
 }
 
 .wallet {
@@ -72,7 +76,12 @@ border-radius: 16px;
 .overlay {
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
-    width: 100%;
+    width: 1440px;
     height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+   
+    
 }
 

@@ -3,8 +3,10 @@ import "./modal.css";
 export default function Modal({ open, onClose }) {
   if (!open) return null;
   return (
-    <div className="overlay">
-      <div className="modal-container">
+    <div onClick={onClose} className="overlay">
+      <div onClick={(event) => {
+        event.stopPropagation()
+      }} className="modal-container">
         <div className="modal-row">
           <h3>Connect Wallet</h3>
           <div className="modal-right-btn">
