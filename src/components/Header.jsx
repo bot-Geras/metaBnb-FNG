@@ -1,6 +1,12 @@
 import metaBnb from "../assets/metabnb.png";
 
-function Header() {
+import Modal from "./Modal/Modal"
+
+
+function Header({handleClick}) {
+  
+
+
   return (
     <header>
       <nav>
@@ -19,12 +25,12 @@ function Header() {
             <a href="">Community</a>
           </li>
           <li>
-            <a href="" className="nav-btn button">
-              Connect Wallet
-            </a>
+            <button className="nav-btn button" onClick={handleClick} >Connect Wallet</button>
+           
           </li>
         </ul>
       </nav>
+      
     </header>
   );
 }

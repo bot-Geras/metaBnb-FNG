@@ -45,7 +45,7 @@ a {
 
 .App {
   min-width: 375px;
-
+  position: relative;
 }
 
 header {
@@ -77,11 +77,15 @@ nav a {
 }
 
 .button {
+
   color: white;
   text-decoration: none;
+  font-family: 'Red Rose', cursive;
   padding: 10px 20px;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 @media (min-width: 850px) {
@@ -127,17 +131,18 @@ main {
 
 .desc-section {
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 input {
   padding: 5px;
-  /* background: rgba(247, 247, 247, 0.1);
+  background: rgba(247, 247, 247, 0.1);
   border: 1px solid #A3A3A3;
-  border-radius: 8px 0px 0px 8px; */
+  border-radius: 8px 0px 0px 8px;
 }
 
 .btn {
-  padding: 15px 30px;
+  padding: 10px 15px;
   color: white;
   text-decoration: none;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
@@ -157,8 +162,8 @@ input {
   .search {
     padding: 15px 85px;
     background: rgba(247, 247, 247, 0.1);
-border: 1px solid #A3A3A3;
-border-radius: 8px 0px 0px 8px;
+    border: 1px solid #A3A3A3;
+    border-radius: 8px 0px 0px 8px;
   }
 
   .search-btn {
@@ -167,16 +172,21 @@ border-radius: 8px 0px 0px 8px;
     height: 54.08px;
   }
 
+  .btn {
+    padding: 15px 30px;
+
+  }
+
   input::placeholder {
     font-weight: 400;
     font-size: 14px;
-    
+
     text-align: left;
     /* or 18px */
-    
-    
+
+
     color: #B8B8B8;
-   
+
   }
 
   .section-1>img {
@@ -196,15 +206,15 @@ border-radius: 8px 0px 0px 8px;
 
   .head-section {
     font-size: 56px;
-line-height: 140%;
-/* or 78px */
+    line-height: 140%;
+    /* or 78px */
 
-letter-spacing: -0.02em;
+    letter-spacing: -0.02em;
   }
-  
+
   .desc-section {
     font-size: 24px;
-line-height: 35px;
+    line-height: 35px;
   }
 
 }
@@ -295,8 +305,8 @@ footer {
   background: #1D1D1E;
   color: white;
   padding: 63px 0;
-  
-  
+
+
 
 }
 
@@ -305,17 +315,19 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
+
 }
-.footer-row > p {
+
+.footer-row>p {
   font-weight: 700;
-font-size: 18px;
-line-height: 22px;
+  font-size: 18px;
+  line-height: 22px;
 }
-.footer-row > ul {
+
+.footer-row>ul {
   list-style-type: none;
   font-size: 14px;
-line-height: 35px;
+  line-height: 35px;
 }
 
 .footer-contact {
@@ -324,7 +336,7 @@ line-height: 35px;
   justify-content: center;
   align-items: center;
   gap: 50px;
-  
+
 
 }
 
@@ -354,9 +366,10 @@ line-height: 35px;
     flex-direction: row;
     justify-content: space-evenly;
   }
+
   .footer-contact {
     align-items: flex-start;
 
   }
-  
+
 }
