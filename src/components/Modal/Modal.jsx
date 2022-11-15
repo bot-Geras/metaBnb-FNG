@@ -4,9 +4,12 @@ export default function Modal({ open, onClose }) {
   if (!open) return null;
   return (
     <div onClick={onClose} className="overlay">
-      <div onClick={(event) => {
-        event.stopPropagation()
-      }} className="modal-container">
+      <div
+        onClick={(event) => {
+          event.stopPropagation();
+        }}
+        className="modal-container"
+      >
         <div className="modal-row">
           <h3>Connect Wallet</h3>
           <div className="modal-right-btn">
@@ -21,7 +24,7 @@ export default function Modal({ open, onClose }) {
             <img className="hide" src="../Down Chevron.svg" />
           </div>
           <div className="wallet-connect">
-            <img  src="../connect-wallet.png" />
+            <img src="../connect-wallet.png" />
             <img className="hide" src="../Down Chevron.svg" />
           </div>
         </div>

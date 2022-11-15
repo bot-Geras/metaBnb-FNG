@@ -60,6 +60,44 @@ nav {
   gap: 2em;
 }
 
+.nav-nft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.nav-nft>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.nft-location {
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  border: 1px solid #B4B4B4;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  gap: 1em;
+}
+
+.btn-nft {
+  font-family: 'Red Rose', cursive;
+  border: none;
+  background-color: white;
+}
+
 
 nav ul {
   list-style-type: none;
@@ -98,6 +136,14 @@ nav a {
     flex-direction: row;
     justify-content: center;
     gap: 5em;
+  }
+
+  .nav-nft {
+    min-width: 850px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+
   }
 
   .nav-btn {
@@ -300,9 +346,11 @@ input {
     gap: 5px;
 
   }
-  .content-img > img {
+
+  .content-img>img {
     margin-left: 25px;
   }
+
   .section-4 {
     flex-direction: row;
     gap: 20px;
@@ -346,6 +394,7 @@ footer {
   list-style-type: none;
   font-size: 14px;
   line-height: 35px;
+  cursor: pointer;
 }
 
 .footer-contact {
@@ -362,6 +411,7 @@ footer {
   display: flex;
   gap: 2em;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 /* .footer-list {
