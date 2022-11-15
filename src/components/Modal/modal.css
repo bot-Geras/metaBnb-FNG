@@ -2,14 +2,14 @@
     padding: 20px;
     position: absolute;
     width: 600px;
-height: 326px;
-left: 420px;
-top: 247px;
+    height: 326px;
+    left: 420px;
+    top: 247px;
 
-/* DTC White */
+    /* DTC White */
 
-background: #FFFFFF;
-border-radius: 16px;
+    background: #FFFFFF;
+    border-radius: 16px;
 }
 
 
@@ -26,6 +26,7 @@ border-radius: 16px;
     height: 24px;
     cursor: pointer;
 }
+
 .modal-right-btn:hover {
     background-color: #CFD8DC;
 }
@@ -80,8 +81,4 @@ border-radius: 16px;
     height: 100%;
 }
 
-@media screen and (max-width: 500px) {
-   
-    
-}
-
+@media screen and (max-width: 500px) {}

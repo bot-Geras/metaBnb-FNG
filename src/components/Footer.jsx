@@ -15,33 +15,29 @@ function Footer() {
           </div>
           <p>2022 Metabnb</p>
         </div>
-        
-          <ul>
-            <p className="foo">Community</p>
-            <li>NFT</li>
-            <li>Tokens</li>
-            <li>Landlords</li>
-            <li>Discord</li>
-          </ul>
-          <ul>
-            <p className="foo">Places</p>
-            <li>Castles</li>
-            <li>Farms</li>
-            <li>Beach</li>
-            <li>Learn More</li>
-          </ul>
-          <ul>
-            <p className="foo">About Us</p>
-            <li>Road map</li>
-            <li>Creators</li>
-            <li>Careers</li>
-            <li>Contact Us</li>
-          </ul>
-        
-        
+
+        <ul>
+          <p className="foo">Community</p>
+          <li>NFT</li>
+          <li>Tokens</li>
+          <li>Landlords</li>
+          <li>Discord</li>
+        </ul>
+        <ul>
+          <p className="foo">Places</p>
+          <li>Castles</li>
+          <li>Farms</li>
+          <li>Beach</li>
+          <li>Learn More</li>
+        </ul>
+        <ul>
+          <p className="foo">About Us</p>
+          <li>Road map</li>
+          <li>Creators</li>
+          <li>Careers</li>
+          <li>Contact Us</li>
+        </ul>
       </div>
-      
-      
     </footer>
   );
 }

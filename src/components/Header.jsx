@@ -1,12 +1,8 @@
 import metaBnb from "../assets/metabnb.png";
 
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
-
-function Header({handleClick}) {
-  
-
-
+function Header({ handleClick }) {
   return (
     <header>
       <nav>
@@ -25,12 +21,12 @@ function Header({handleClick}) {
             <a href="">Community</a>
           </li>
           <li>
-            <button className="nav-btn button" onClick={handleClick} >Connect Wallet</button>
-           
+            <button className="nav-btn button" onClick={handleClick}>
+              Connect Wallet
+            </button>
           </li>
         </ul>
       </nav>
-      
     </header>
   );
 }

@@ -274,8 +274,19 @@ input {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 
 
+}
+
+.section-3__title {
+  font-weight: 700;
+font-size: 1.6rem;
+line-height: 1.5;
+/* identical to box height */
+
+
+color: #000000;
 }
 
 @media screen and (min-width: 850px) {
@@ -292,6 +303,16 @@ input {
 
   }
 
+  .section-3__title {
+    font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  }
+
 
 }
 
@@ -304,6 +325,8 @@ input {
   gap: 20px;
   padding: 20px;
 }
+
+
 
 .section-4 {
   padding: 20px;

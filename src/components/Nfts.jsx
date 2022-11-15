@@ -23,7 +23,7 @@ export default function Nfts() {
           <li>Farm</li>
         </ul>
         <div className="nft-location">
-          <button className="btn-nft" >Location</button>
+          <button className="btn-nft">Location</button>
           <img src={settings} />
         </div>
       </div>

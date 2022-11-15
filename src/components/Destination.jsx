@@ -1,16 +1,14 @@
-import Header from "./Header"
-import Footer from "./Footer"
-import NFTs from "./Nfts"
+import Header from "./Header";
+import Footer from "./Footer";
+import NFTs from "./Nfts";
 function Destination({}) {
-    return (
-        <div>
-            <Header />
-            <NFTs />
-            <Footer />
-
-        </div>
-
-    )
+  return (
+    <div>
+      <Header />
+      <NFTs />
+      <Footer />
+    </div>
+  );
 }
 
-export default Destination
+export default Destination;
