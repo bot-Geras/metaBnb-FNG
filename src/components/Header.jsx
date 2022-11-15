@@ -1,6 +1,6 @@
 import metaBnb from "../assets/metabnb.png";
 
-import Modal from "./Modal/Modal"
+import {Link} from "react-router-dom"
 
 
 function Header({handleClick}) {
@@ -13,10 +13,10 @@ function Header({handleClick}) {
         <img src={metaBnb} alt="" />
         <ul>
           <li>
-            <a href="">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="">Place to stay</a>
+            <Link to="destination">Place to stay</Link>
           </li>
           <li>
             <a href="">NFTs</a>

@@ -249,6 +249,16 @@ input {
 
 }
 
+.content-img {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
 .section-4 {
   padding: 20px;
   display: flex;
@@ -285,9 +295,17 @@ input {
 }
 
 @media screen and (min-width: 850px) {
+  .content-img {
+    display: inline-block;
+    gap: 5px;
+
+  }
+  .content-img > img {
+    margin-left: 25px;
+  }
   .section-4 {
     flex-direction: row;
-    gap: 20p;
+    gap: 20px;
 
   }
 

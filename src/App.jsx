@@ -1,23 +1,21 @@
 import "./App.css";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-import {useState} from 'react'
-import Modal from "./components/Modal/Modal"
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import Home from "./components/Home"
+import Destination from "./components/Destination";
+
 
 
 function App() {
-  const [modal, setModal] = useState(false)
-
-  const toggleModal = () => {
-    setModal(prevState => !prevState)
-  }
+  
   return (
     <div className="App">
-      <Modal open={modal} onClose={()=> setModal(false)} />
-      <Header handleClick={() => toggleModal(true)} />
-      <Main />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/destination/*" element={<Destination />} />
+        </Routes>
+      </Router>
+      
       
     </div>
   );

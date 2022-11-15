@@ -3,6 +3,7 @@ import logo1 from "../assets/Frame-0.svg";
 import logo2 from "../assets/Group-4.svg";
 import logo3 from "../assets/Group-5.svg";
 import logo4 from "../assets/Frame-1.png";
+import Content from "./Content"
 
 function Main() {
   return (
@@ -38,6 +39,7 @@ function Main() {
 
       <section className="section-3">
         <h2>Inspiration for your next adventure</h2>
+        <Content />
       </section>
 
       <section className="section-4">
